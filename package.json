@@ -1,0 +1,19 @@
+{
+  "name": "date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "date.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "date",
+    "time"
+  ],
+  "author": "aguilar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
