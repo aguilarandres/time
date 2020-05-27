@@ -15,7 +15,7 @@ describe( 'test for integer values', () => {
     const run = () => {
       to_seconds(-1)
     }
-    expect(run).toThrow("Parameter is less than zero")
+    expect(run).toThrow("Parameter is a negative number")
   });
 
 });
