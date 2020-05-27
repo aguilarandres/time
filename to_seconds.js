@@ -5,7 +5,7 @@ function to_seconds( milliseconds ) {
     throw new Error("Parameter is not a number")
   // handle negative values
   if(milliseconds < 0)
-    throw new Error("Parameter is less than zero")
+    throw new Error("Time value cannot be a negative value")
 
   return milliseconds / 1000;
 }
