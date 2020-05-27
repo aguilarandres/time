@@ -1,17 +1,3 @@
-/*
-new Date();
-new Date(value);
-new Date(dateString);
-new Date(year, monthIndex [, day [, hours [, minutes [, seconds [, milliseconds]]]]]);
-*/
-
-// Invoking JavaScript Date as a function (i.e., without the new operator)
-// will return a string representing the current date and time.
-const today = new Date();
-const start = new Date(1985, 2, 19);
-
-const elapsed = today.getTime() - start.getTime();
-
 function to_seconds( milliseconds ) {
 
   // handle NaN, undefined, object
