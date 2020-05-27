@@ -1,3 +1,4 @@
+// converts integer value to seconds
 function to_seconds( milliseconds ) {
 
   // handle NaN, undefined, object
