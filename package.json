@@ -1,14 +1,14 @@
 {
-  "name": "date",
+  "name": "to_seconds",
   "version": "1.0.0",
   "description": "",
-  "main": "date.js",
+  "main": "to_seconds.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
   "keywords": [
-    "date",
+    "seconds",
     "time"
   ],
   "author": "aguilar",
