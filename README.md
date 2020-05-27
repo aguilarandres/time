@@ -1,5 +1,7 @@
 Objective: Create tests using Jest and Node
 
+Function: simple function that converts milliseconds to seconds
+
 Languages: JavaScript
 
 Framework: Node
